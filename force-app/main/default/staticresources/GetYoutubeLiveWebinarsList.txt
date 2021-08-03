@@ -1,0 +1,79 @@
+{
+  "kind": "youtube#liveBroadcastListResponse",
+  "etag": "57Fu5Ry07tcSpGLs84T5dg-0U2k",
+  "items": [
+    {
+      "kind": "youtube#liveBroadcast",
+      "etag": "0r_UHAjmBILcLndEzg9O1tBjEYY",
+      "id": "BRCtGIajFdU",
+      "status": {
+        "lifeCycleStatus": "complete",
+        "privacyStatus": "unlisted",
+        "recordingStatus": "recorded",
+        "madeForKids": true,
+        "selfDeclaredMadeForKids": true
+      },
+      "snippet": {
+        "publishedAt": "2021-07-27T08:29:56Z",
+        "channelId": "UC3ApyuB7tVNZTIfhRR0Tahg",
+        "title": "Test3",
+        "description": "2nd demo webinar",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BRCtGIajFdU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BRCtGIajFdU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BRCtGIajFdU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/BRCtGIajFdU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/BRCtGIajFdU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "scheduledStartTime": "2021-08-06T16:05:00Z",
+        "actualStartTime": "2021-07-27T08:31:34Z",
+        "actualEndTime": "2021-07-27T08:31:57Z",
+        "isDefaultBroadcast": false,
+        "liveChatId": "KicKGFVDM0FweXVCN3RWTlpUSWZoUlIwVGFoZxILQlJDdEdJYWpGZFU"
+      },
+      "contentDetails": {
+        "boundStreamId": "3ApyuB7tVNZTIfhRR0Tahg1627374597803135",
+        "boundStreamLastUpdateTimeMs": "2021-07-27T08:32:08Z",
+        "monitorStream": {
+          "enableMonitorStream": false
+        },
+        "enableEmbed": true,
+        "enableDvr": true,
+        "enableContentEncryption": false,
+        "startWithSlate": false,
+        "recordFromStart": true,
+        "enableClosedCaptions": false,
+        "closedCaptionsType": "closedCaptionsDisabled",
+        "enableLowLatency": false,
+        "latencyPreference": "ultraLow",
+        "projection": "rectangular",
+        "enableAutoStart": false,
+        "enableAutoStop": false
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 4,
+    "resultsPerPage": 5
+  }
+}

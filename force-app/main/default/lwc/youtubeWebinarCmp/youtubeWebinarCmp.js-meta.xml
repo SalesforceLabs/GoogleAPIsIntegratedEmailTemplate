@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Youtube Webinar Picklist</masterLabel>
+    <targets>
+        <target>lightningStatic__Email</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningStatic__Email">            
+            <property label="Select Webinar" name="htmlValue" type="String" datasource="apex://YoutubeDataPicklist" required="false"  />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
